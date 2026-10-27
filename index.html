@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Nusantara Karya - Portal Resmi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Menu Navigasi -->
+    <header>
+        <div class="logo">PT Nusantara Karya</div>
+        <nav>
+            <a href="#artikel" class="nav-link">Tentang Kami</a>
+            <a href="#kontak" class="nav-link">Kontak & Layanan</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- 2. Konten Artikel Formal -->
+        <section id="artikel" class="artikel-section">
+            <h2>Komitmen Kami dalam Pembangunan Teknologi Nasional</h2>
+            <p class="meta">Dipublikasikan oleh: Divisi Komunikasi Publik | Oktober 2026</p>
+            <p>PT Nusantara Karya merupakan perusahaan yang berdedikasi untuk menghadirkan solusi teknologi informasi terintegrasi demi mendukung transformasi digital instansi dan pelaku usaha di Indonesia.</p>
+            <p>Dengan berlandaskan pada integritas, inovasi, dan profesionalisme, kami berkomitmen untuk memberikan layanan terbaik melalui penerapan standar kualitas tinggi pada setiap proyek yang kami tangani.</p>
+        </section>
+
+        <!-- 3. Form Kontak -->
+        <section id="kontak" class="form-section">
+            <h2>Formulir Kontak Resmi</h2>
+            <form id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama lengkap Anda...">
+                    <small class="error" id="errorNama"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" placeholder="Masukkan alamat email resmi...">
+                    <small class="error" id="errorEmail"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan / Keperluan</label>
+                    <textarea id="pesan" rows="4" placeholder="Tuliskan maksud dan tujuan Anda..."></textarea>
+                    <small class="error" id="errorPesan"></small>
+                </div>
+
+                <div id="sukses" class="sukses"></div>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- 4. Footer -->
+    <footer>
+        <p>&copy; 2026 PT Nusantara Karya. Seluruh Hak Cipta Dilindungi Undang-Undang.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
